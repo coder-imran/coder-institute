@@ -1,0 +1,140 @@
+.navbar {
+  background: #000;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.navbar .nav-item {
+  padding-left: 2em !important;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img-1 {
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+
+.carousel-img-2 {
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+
+.carousel-img-3 {
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+
+#homeicon .fa {
+  font-size: 50px;
+}
+
+#getstarted {
+  position: relative;
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+#getstarted .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#home-video{
+  position: relative;
+  background: url('../img/image6.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+#home-video .fab{
+  font-size: 50px;
+  color: #ff0000;
+}
+
+#home-video .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#gallary img{
+  min-height: 250px;
+}
+#copyright{
+  background: #000;
+}
+#page-header{
+  background: url('../img/image3.jpg');
+  background-size: cover;
+  height: 250px;
+  background-attachment: fixed;
+}
+#about-info img{
+  width: 350px;
+  height: 350px;
+}
+#icon-boxes .fa{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#icon-boxes .fab{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#testimonial .slick-prev::before,.slick-next::before{
+  color: #000;
+}
+#services-page-header{
+  background: url('../img/image5.jpeg');
+  background-size: cover;
+  height: 250px;
+  background-attachment: fixed;
+}
+#blog-page-header{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+  height: 250px;
+  background-attachment: fixed;
+}
+#contact-page-header{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+  height: 250px;
+  background-attachment: fixed;
+}
+
+@media(max-width:767px) {
+  .navbar .nav-item {
+    padding-left: 0em !important;
+  }
+}
+@media(max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem;
+  }
+}
+@media(max-width: 767px){
+  #getstarted .img{
+    min-height: 350px;
+  }
+}
+@media(max-width: 480px){
+  #getstarted .img{
+    min-height: 200px;
+  }
+}
